@@ -151,8 +151,8 @@ const Home = () => {
             </div>
 
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "20px" }}>
-                <div className="card mb-3" style={{ maxWidth: "540px", margin: '20px 20px', boxShadow: "1px 1px 5px black" }}>
-                    <div className="row g-0">
+                <div className="card mb-3" style={{ margin: '20px 20px', boxShadow: "1px 1px 5px black" }}>
+                    <div className="row g-0" style={{width:"700px"}}>
                         <div className="col-md-3">
                             <Button>Free Forever </Button>
                             <h3>Free Starter</h3>
@@ -168,15 +168,15 @@ const Home = () => {
                             <li>Upto 25gb Storage</li>
                             <li>Email Support</li>
                         </ul>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <p className="card-text">This is a wider card with supporting <br /> text below as a natural lead-in to additional <br /> content.</p>
                                 {/* <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="card mb-3" style={{ maxWidth: "540px", margin: '20px 20px', boxShadow: "1px 1px 5px black" }}>
-                    <div className="row g-0">
+                <div className="card mb-3" style={{ margin: '20px 20px', boxShadow: "1px 1px 5px black" }}>
+                    <div className="row g-0" style={{width:"700px"}} >
                         <div className="col-md-3">
                             <Button>Free Forever </Button>
                             <h3>Free Starter</h3>
@@ -192,7 +192,7 @@ const Home = () => {
                             <li>Upto 25gb Storage</li>
                             <li>Email Support</li>
                         </ul>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text">This is a wider card with supporting <br /> text below as a natural lead-in to additional <br /> content.</p>
                                 {/* <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                             </div>
                         </div>
